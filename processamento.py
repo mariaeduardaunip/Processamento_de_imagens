@@ -10,9 +10,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtGui import QPixmap, QImage
 from PySide6.QtCore import Qt
 
-# ==============================================================================
 # FUNÇÕES DE DETECÇÃO REESCRITAS E OTIMIZADAS
-# ==============================================================================
 
 def detectar_desmatamento(imagem):
     """Detecta solo exposto (marrom/ocre)."""
